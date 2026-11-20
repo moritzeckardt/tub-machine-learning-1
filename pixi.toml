@@ -1,0 +1,16 @@
+[workspace]
+authors = ["Moritz Eckardt <327447386+moritzeckardt@users.noreply.github.com>"]
+channels = ["conda-forge"]
+name = "001 Machine Learning I"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = ">=3.15.2,<3.16"
+ipykernel = ">=7.4.0,<8"
+numpy = ">=2.5.4,<3"
+matplotlib = ">=3.11.2,<4"
+scikit-learn = ">=1.9.1,<2"
+pillow = ">=13.0.0,<14"
